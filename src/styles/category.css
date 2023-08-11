@@ -1,0 +1,25 @@
+.jeopardy-category h2 {
+  background-color: #18178F;
+  color: whitesmoke;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.jeopardy-category {
+  display: grid;
+  grid-template-rows: 100px repeat(5, 1fr);
+  gap: 3px;
+  background-color: black;
+
+
+}

@@ -1,0 +1,35 @@
+.jeopardy-clue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #18178F;
+  color: whitesmoke;
+  font-size: 1em;
+  cursor: pointer;
+  height: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  perspective: 1000px;
+}
+
+.dollar-value {
+  font-size: 50px;
+  color: #D9B64C;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+.clue-card {
+  font-size: 20px;
+  color: #D9B64C;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.clue-card.flipped {
+  transform: rotateY(360deg);
+  background-color: #18178F;
+  color: whitesmoke;
+}
